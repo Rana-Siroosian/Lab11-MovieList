@@ -2,7 +2,11 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
-
+/**
+ * 
+ * @author >>RanaSiroosian<<
+ *
+ */
 public class MovieLab {
 
 	public static void main(String[] args) {
@@ -11,7 +15,7 @@ public class MovieLab {
 		
 		System.out.println("Welcome to the Movie List Application!");
 		System.out.println("**************************************");
-		System.out.println("There are 10s of movies in this list.");
+		System.out.println("There are 100 of movies in this list.");
 		System.out.println("**************************************");
 
 		System.out.println();
@@ -31,8 +35,8 @@ public class MovieLab {
 					+ "3- Animated\n4- Comedy\n5- Horror\n6- Scifi\n", 1, 6);
 			System.out.println();
 			category =getCategory(menuOption);
-			System.out.println(category);
-			
+//			System.out.println(category);
+			category=category.toLowerCase();
 			for (Movie movie : movies) {
 				if(category.equals(movie.getCategory())) {
 					System.out.println(movie);}

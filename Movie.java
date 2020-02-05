@@ -1,5 +1,9 @@
 
-
+/**
+ * 
+ * @author >>RanaSiroosian<<
+ *
+ */
 public class Movie implements Comparable<Movie> {
 	
 	public String title; 
@@ -24,7 +28,7 @@ public class Movie implements Comparable<Movie> {
 		return title;
 	}
 	public String toString() {
-		return "Movie [title=" + title + ", category=" + category + "]";
+		return "Movie [title= " + title + ", category= " + category + "]";
 	}
 
 	
