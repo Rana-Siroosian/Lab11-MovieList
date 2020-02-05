@@ -19,7 +19,7 @@ public class MovieLab {
 		System.out.println("**************************************");
 
 		System.out.println();
-		boolean loop = false;
+		boolean loop = true;
 		int menuOption;
 		String category;
 		String yesOrNo ="";
@@ -44,8 +44,8 @@ public class MovieLab {
 			System.out.println();
 			System.out.println("Would you like to continue? (enter \"y\" or \"n\").");
 			yesOrNo = scnr.nextLine();
-			if(yesOrNo.equalsIgnoreCase("y")) 
-				loop = true;
+			if(yesOrNo.equalsIgnoreCase("n")) 
+				loop = false;
 
 		}while(loop);
 	
