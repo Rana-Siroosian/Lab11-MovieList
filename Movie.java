@@ -30,10 +30,4 @@ public class Movie implements Comparable<Movie> {
 	public String toString() {
 		return "Movie [title= " + title + ", category= " + category + "]";
 	}
-
-	
-	
-
-	
-
 }

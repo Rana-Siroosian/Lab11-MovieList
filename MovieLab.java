@@ -45,6 +45,7 @@ public class MovieLab {
 			System.out.println("Would you like to continue? (enter \"yes\" or \"no\").");
 			yesOrNo = scnr.nextLine();
 			if(yesOrNo.equalsIgnoreCase("no")) 
+			if(yesOrNo.equalsIgnoreCase("n")) 
 				loop = false;
 
 		}while(loop);
